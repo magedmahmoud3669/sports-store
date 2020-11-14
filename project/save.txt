@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body style="background-color:thistle;">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#home">Brands</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#home">About</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li  class="active"><a href="#about">Sign up</a></li>
+        <li class="active"><a  href="#about">Log in</a></li>
+    </ul>
+    <div class="clear-fix"></div>
+
+
+    <div class="container" style="width: 1200px; margin: auto;">
+        <div class="slider" style="margin: 20px auto; background-color: cadetblue; height: 400px; ">
+            <form action="">
+                <input type="image" src="images/shoes.jpg" alt="no" height="100%" width="100%" 
+                 >
+            </form>
+        </div>
+        <h2 style="text-align: center;">Stand out this summer</h2>
+
+
+        <div class="row" style="margin: 20px auto; height: 550px;" >
+            <form action="" style="height: 100%;">
+                <div class="row-left" style="width: 33.3%; height: 100%; float: left;">
+                    <input type="image" src="images/summerlooks.jpg" alt="no image" height="100%">
+                 </div>
+                 <div class="row-center" style="width: 33.3%;  height: 100%; float: left;">
+                     <input type="image" src="images/summerlooks2.jpg" alt="no image" height="100%">
+                 </div>
+                 <div class="row-right" style="width: 33.3%;  height: 100%; float: left;">
+                     <input type="image" src="images/summerlooks3.jpg" alt="no image" height="100%">
+                 </div>
+            </form>
+        </div>
+
+
+        <h2 style="text-align: center;">Summer </h2>
+        <div class="row" style="margin: 20px auto; height: 550px;" >
+            <form action="">
+                <div class="row-left" style="width: 33.3%; height: 100%; float: left;">
+                <input type="image" src="images/msummerlooks2.jpg" alt="no image" height="100%">
+                </div>
+                <div class="row-center" style="width: 33.3%;  height: 100%; float: left;">
+                    <input type="image" src="images/msummerlooks.jpg" alt="no image" height="100%">
+                </div>
+                <div class="row-right" style="width: 33.3%;  height: 100%; float: left;">
+                    <input type="image" src="images/msummerlooks3.jpg" alt="no image" height="100%">
+                </div>
+            </form>
+        </div>
+
+
+        <div class="slider2" style="margin: 50px auto; height: 480px;">
+            <form action="" style="height: 100%; padding:0 30%;">
+                <input type="image" src="images/slider/rbags12.jpg" alt="no">
+            </form>
+        </div>
+
+        <div class="perfium" style="margin: 20px auto; height: 350px; border:1px solid black;">
+            <h2 style="text-align: center; padding-top: 10px;">Grab Branded Perfumes. Click The Picture Below</h2>
+            <form action="" style="padding:30px 90px;">
+                <input type="image" src="images/perfume.jpg" alt="">
+                <input type="image" src="images/perfume2.jpg" alt="">
+                <input type="image" src="images/perfume3.jpg" alt="">
+                <input type="image" src="images/perfume4.jpg" alt="">
+            </form>
+        </div>
+
+        <div class="messi" style="margin: 20px auto; height: 400px;">
+            <h2 style="text-align: center; padding: 10px;">
+              <marquee behavior="alternate" direction="" width="500px"> Football Shoes</marquee> 
+            </h2>
+            <form action="">
+                <input type="image" src="images/adidasmessi.jpg" alt="" width="100%">
+            </form>
+        </div>
+        
+        <div class="Jordan" style="height: 400px;">
+           <video width="100%" height="100%" controls autoplay loop>
+               <source src="video/Jordan Brand.mp4" type="video/mp4">
+                <source src="video/Jordan Brand.ogg" type="video/mp4">
+           </video>
+        </div>
+        <div style="text-align: center; margin: 10px;">
+            <a href="" style="text-decoration: none; border: 1px solid;background-color: slateblue;">Buy Now</a>
+        </div>
+           
+    </div>
+
+    <div class="footer" style="color: honeydew; text-align: center; height: 100px;margin: 10px auto;">
+       <div class="left-footer" style="width: 50%; background-color: hotpink; float: left;">
+            <h1>cotact us</h1>
+       </div>
+       <div class="right-footer" style="width: 50%; background-color: lawngreen; float: left;">
+            <h1>mapping</h1>
+       </div>
+    </div>
+    <script src="js/home.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:green;
+
+}
+
+.active {
+    float: right;
+  background-color:red;
+  margin: 0 10px;
+}
+
+.logo{
+    text-align: center;
+}
